@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
 </head>
 <body>
 <div class="content">
-    <img id="logo" src="Logo.png"/>
+    <img id="logo" src="img/Logo.png"/>
     <nav class="topnav">
         <a href="#About">About</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
     </nav>
-    <div class="about">
-        <h3 class="About">
+    <div class="about" id="About">
+        <h3>
             Welcome to Jack's Website
         </h3>
         <hr>
-        <ul>
-            <li>
-                A strong problem solver, passionate about
-                innovation, programming and efficiency.
-            </li>
-            <hr>
-            <li>
-                Currently, I am a student at <a id="nau" href="https://www.nau.edu">
-                Northern Arizona University</a>. I am pursuing a degree in Information Systems,
-                Bachelors of Science Business Administration.
-            </li>
-        </ul>
+        <p>
+            A strong problem solver, passionate about
+            innovation, programming and efficiency.
+        </p>
+        <hr>
+        <p>
+            Currently, I am a student at <a id="nau" href="https://www.nau.edu">
+            Northern Arizona University</a>. I am pursuing a degree in Information Systems,
+            Bachelors of Science Business Administration.
+        </p>
+        <hr>
+        <p>
+            I grew up in Los Angeles County and gained an interest in
+            technology at a young age.
+        </p>
+        <img id="selfie" src = "img/Selfie.jpg"/>
+    </div>
+    <hr>
+    <div class="contact" id="Contact">
+        <h1>Contact Me</h1>
+        <p>john.jack.carron@aol.com</p>
+        <form action="#">
+            First name:<br>
+            <input type="text" name="firstname" value="John">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Smith">
+            <br>
+            Return Email:<br>
+            <input type="email" name="email" value="jsmith@xyz.me">
+            <br>
+            <textarea name="Text1" cols="40" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 </div>
 </body>
