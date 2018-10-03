@@ -1,12 +1,13 @@
 html, body {
     margin: 0;
-    background-image: url('background-image.jpg');
+    background-image: url('../img/background-image.jpg');
     background-size:110%;
 
 }
 
 .content{
   display: table;
+  color: white;
   margin: 0px auto 0px auto;
   padding: 0px;
   text-align: center;
@@ -54,8 +55,7 @@ html, body {
     width: 50%;
 }
 
-.about {
-    color: white;
+.about {    
     padding: 10px;
 }
 
@@ -65,4 +65,12 @@ html, body {
 
 #selfie {
     width: 100%;
+}
+
+.contactForm {
+    margin: 10px;
+}
+
+#ContactHead {
+    text-decoration: underline;
 }

@@ -36,19 +36,14 @@
     </div>
     <hr>
     <div class="contact" id="Contact">
-        <h1>Contact Me</h1>
-        <p>john.jack.carron@aol.com</p>
-        <form action="#">
-            First name:<br>
-            <input type="text" name="firstname" value="John">
-            <br>
-            Last name:<br>
-            <input type="text" name="lastname" value="Smith">
-            <br>
-            Return Email:<br>
-            <input type="email" name="email" value="jsmith@xyz.me">
-            <br>
-            <textarea name="Text1" cols="40" rows="5"></textarea>
+        <h1 id="ContactHead">Contact Me</h1>
+        <h2>John "Jack" Carron</h2>
+        <h3>john.jack.carron@gmail.com</h3>
+        <form class="contactForm" action="#">
+            First name:<br><input class="contactForm" required type="text" name="firstname" value="John"><br>
+            Last name:<br><input class="contactForm" required type="text" name="lastname" value="Smith"><br>
+            Return Email:<br><input class="contactForm" required type="email" name="email" value="jsmith@xyz.me"><br>
+            Content:<br><textarea class="contactForm" name="Email Content" cols="40" rows="5"></textarea>
             <br>
             <input type="submit" value="Submit">
         </form>
