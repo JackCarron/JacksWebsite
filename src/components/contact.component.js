@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export default class EditTodo extends Component {
+export default class Contact extends Component {
     render() {
         return (
             <div>
-                <p>Welcome to Edit Todo Component!!</p>
+                <p>Welcome to Contact Component!!</p>
             </div>
         )
     }
