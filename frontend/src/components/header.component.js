@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import logo from "../Logo.png";
+import logo from "../assets/Logo.png";
 
 class Header extends Component {
   render() {
     return (
 <nav className="navbar navbar-expand-lg text-light bg-dark mr-auto mb-4 h5">
-            <a class="navbar-brand" href="http://www.jcarron.net">
+            <a className="navbar-brand" href="http://www.jcarron.net">
               <img src={logo} width="75" height="75" alt="Jack Carron" />
             </a>
             <Link to="/" className="navbar-brand">Jack Carron</Link>
