@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 let Message = new Schema({
-    email_address: {
+    emailAddress: {
         type: String
     },
     subject: {
