@@ -6,7 +6,7 @@ export default class Contact extends Component {
             <div className="text-center">
                 <h1>Contact Jack</h1>
                 <h6>Hello, the following form allows you to leave a message for Jack.</h6>
-                <form style={{'max-width':'500px'}} 
+                <form style={{'maxWidth':'500px'}} 
                       className="form-group justify-content-center m-auto">
                     <label>Your Contact Email:</label>
                     <input className="form-control mb-2" 
