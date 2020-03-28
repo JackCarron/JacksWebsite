@@ -13,10 +13,12 @@ export default class About extends Component {
                     <li className="list-group-item mb-3">Fosters a passion for software engineering, golf, extreme sports, animals, and helping others</li>                    
             </ul>
             <img src={rory}
-                         style={{'maxWidth':'350px'}}/>
+                 alt="Cat"
+                 style={{'maxWidth':'350px'}}/>
             <br />
             <img className="mt-3" src={skate}
-                         style={{'maxWidth':'500px'}}/>             
+                 alt="Skate"
+                 style={{'maxWidth':'500px'}}/>             
             </div>
         )
     }
