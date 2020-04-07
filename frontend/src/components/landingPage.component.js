@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import golf from "../assets/Golf.PNG"
-import professional from "../assets/Professional.JPG"
+import professional from "../assets/Professional.PNG"
 
 export default class About extends Component {
     render() {
@@ -9,14 +9,14 @@ export default class About extends Component {
             <div className="text-center">
                 <h3>Welcome to jcarron.net</h3>
                 <h5>Jack Carron's portfolio</h5>             
-            <img src={golf}
-                 alt="Golf"
-                 style={{'maxWidth':'400px'}}/>
+            <img src={professional}
+                 alt="Professional Headshot"
+                 style={{'maxWidth':'350px'}}/>   
             <br />
             <img className="mt-3" 
-                 src={professional}
-                 alt="Professional Headshot"
-                 style={{'maxWidth':'400px'}}/>             
+                 src={golf}
+                 alt="Golf"
+                 style={{'maxWidth':'350px'}}/>    
             </div>
         )
     }
