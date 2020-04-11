@@ -16,7 +16,7 @@ export default class Contact extends Component {
       }
 
     handleSubmit(event){
-        axios.post('http://localhost:4000/messages/add', {
+        axios.post('api/messages/add', {
             emailAddress: this.state.emailAddress,
             subject: this.state.subject,
             body: this.state.body
