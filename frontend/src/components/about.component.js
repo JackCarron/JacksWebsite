@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import rory from "../assets/rory-the-tiger-1.png"
-import skate from "../assets/Jack Skate N.Quezada-8955.JPG"
+import skate from "../assets/Skate.PNG"
+
 
 export default class About extends Component {
     render() {
@@ -18,7 +19,7 @@ export default class About extends Component {
             <br />
             <img className="mt-3" src={skate}
                  alt="Skate"
-                 style={{'maxWidth':'500px'}}/>             
+                 style={{'maxWidth':'350px'}}/>             
             </div>
         )
     }
