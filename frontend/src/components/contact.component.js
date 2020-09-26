@@ -22,10 +22,10 @@ export default class Contact extends Component {
             message: this.state.body
           })
           .then(function (response) {
-            console.log(response);
+            alert('Message successfully sent');
           })
           .catch(function (error) {
-            console.log(error);
+            alert(error);
           });          
         event.preventDefault();
         this.setState({
