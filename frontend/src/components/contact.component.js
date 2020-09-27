@@ -16,16 +16,16 @@ export default class Contact extends Component {
       }
 
     handleSubmit(event){
-        axios.post('api/messages/add', {
-            emailAddress: this.state.emailAddress,
+        axios.post('https://api-john-jack-carron-developer-edition.na139.force.com/services/apexrest/Messages', {
+            email: this.state.emailAddress,
             subject: this.state.subject,
-            body: this.state.body
+            message: this.state.body
           })
           .then(function (response) {
-            console.log(response);
+            alert('Message successfully sent');
           })
           .catch(function (error) {
-            console.log(error);
+            alert(error);
           });          
         event.preventDefault();
         this.setState({
